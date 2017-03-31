@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "uglifyify": "^3.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Ctrl-Z to suspend the loop. kill %% to get rid of it\\nStop when the hash changes.\\n\\n\"; for i in `seq 0 100`; do echo \"require('./b')\" | browserify - -t uglifyify | tee output-$i.js | openssl dgst -sha1; done"
+  }
+}
