@@ -1,3 +1,7 @@
+If you're not lucky (or patient enough!) here is an example diff where the
+output changed. Notice the `dup`
+
+```diff
 --- output-1.js	2017-03-31 22:26:02.000000000 +0100
 +++ output-35.js	2017-03-31 22:26:12.000000000 +0100
 @@ -4,14 +4,13 @@
@@ -17,3 +21,4 @@
 +},{"./c":5,"dup":3}],7:[function(require,module,exports){
  require("../a"),require("./d");
  },{"../a":4,"./d":6}]},{},[1]);
+```
