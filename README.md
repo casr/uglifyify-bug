@@ -1,3 +1,8 @@
+
+Replicate with (and heed the warning):
+
+    npm install && npm test
+
 If you're not lucky (or patient enough!) here is an example diff where the
 output changed. Notice the `dup`
 
